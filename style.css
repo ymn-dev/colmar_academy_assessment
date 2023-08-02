@@ -261,4 +261,23 @@ footer a {
     width: 100%;
     padding: 16px;
   }
+  .learning {
+    padding: 32px 16px;
+  }
+  .learning h2 {
+    margin-bottom: 16px;
+  }
+  .learning h3 {
+    margin: 16px 0 24px 16px;
+  }
+  .learning__item__container {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .learning__item {
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+  }
 }
