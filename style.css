@@ -72,13 +72,19 @@ nav {
   align-items: center;
   padding: 0 24px;
 }
-.nav__left {
+.nav__left a {
   display: flex;
   align-items: center;
   height: 32px;
+  font-weight: bolder;
 }
 .nav__left .logo__right {
   color: var(--gray);
+  font-weight: lighter;
+}
+.nav__left a:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 #logo {
   height: 100%;
