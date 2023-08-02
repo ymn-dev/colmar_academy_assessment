@@ -36,10 +36,10 @@ footer {
   font-weight: lighter;
 }
 nav ul li span {
-  font-size: min(20px, calc(0.1px + 1.8vw));
+  font-size: min(17px, calc(0.1px + 1.8vw));
 }
 .nav__left {
-  font-size: 20px;
+  font-size: 17px;
 }
 nav .practice a {
   font-size: calc(7px + 0.7vw);
