@@ -95,3 +95,36 @@ nav ul {
 .practice__right__item__text p {
   margin: 8px 0;
 }
+.learning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 72px;
+}
+.learning h2 {
+  margin-bottom: 32px;
+}
+.learning__item__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.learning__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 26%;
+  width: 33.33%;
+}
+.learning__item img {
+  height: auto;
+}
+.learning__text {
+  padding: 16px 16px 24px;
+}
+.learning__text p {
+  color: gray;
+}
+.learning__margin__seperator {
+  margin: 8px 0;
+}
