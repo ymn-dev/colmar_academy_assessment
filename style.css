@@ -278,6 +278,7 @@ footer a {
   }
   h2 {
     font-size: 35px;
+    font-weight: 790;
   }
   h3 {
     font-size: 18px;
@@ -320,6 +321,7 @@ footer a {
   }
   .hero__right button {
     background-color: rgb(155, 155, 155);
+    font-weight: bolder;
     position: relative;
   }
   .hero__right button::before {
