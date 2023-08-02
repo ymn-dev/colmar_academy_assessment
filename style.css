@@ -53,6 +53,7 @@ footer a {
 }
 a {
   color: cornflowerblue;
+  font-size: calc(7px + 0.7vw);
 }
 .practice a:hover {
   color: deepskyblue;
