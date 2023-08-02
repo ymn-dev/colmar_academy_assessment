@@ -228,4 +228,17 @@ footer a {
     width: 100%;
     justify-content: space-evenly;
   }
+  .hero {
+    flex-direction: column;
+    padding: 0;
+  }
+  .hero__left {
+    width: 100%;
+  }
+  .hero__right {
+    padding: 32px 16px;
+  }
+  .hero h3 {
+    margin: 32px 0 24px;
+  }
 }
