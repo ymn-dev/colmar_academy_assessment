@@ -138,8 +138,11 @@ nav ul {
 .learning__item img {
   height: auto;
 }
+.learning h3 {
+  padding: 16px 0 0 16px;
+}
 .learning__text {
-  padding: 16px 16px 24px;
+  padding: 0 16px 24px;
 }
 .learning__margin__seperator {
   margin: 8px 0;
@@ -198,4 +201,10 @@ footer ul {
 }
 footer a {
   color: gray;
+}
+
+@media only screen and (max-width: 540px) {
+  .--desktop {
+    display: none;
+  }
 }
