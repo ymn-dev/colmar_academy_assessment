@@ -128,3 +128,21 @@ nav ul {
 .learning__margin__seperator {
   margin: 8px 0;
 }
+.thesis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thesis h2 {
+  margin: 32px 0;
+}
+.thesis__item__container {
+  display: flex;
+}
+.thesis__left {
+  width: 60%;
+  margin: 0 24px;
+}
+.thesis__left video {
+  width: 100%;
+}
