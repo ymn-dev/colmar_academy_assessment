@@ -53,5 +53,45 @@ nav ul {
   color: white;
 }
 .practice {
-  padding: 32px 0;
+  padding: 32px 0 16px;
+  display: flex;
+}
+.practice__left {
+  width: 60%;
+  margin: 0 24px 0px;
+  position: relative;
+}
+.practice__left img {
+  width: 100%;
+}
+.practice__left h2 {
+  margin: 32px 0 24px;
+}
+.practice__left__footer {
+  position: absolute;
+  bottom: 16px;
+}
+.practice__right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 16px;
+}
+.practice__right__item {
+  display: flex;
+  align-items: center;
+}
+.practice__right__item:hover {
+  background-color: lightgrey;
+}
+.practice__right__item a {
+  text-decoration: none;
+}
+.practice__right__item img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+.practice__right__item__text p {
+  margin: 8px 0;
 }
